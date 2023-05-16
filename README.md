@@ -1,29 +1,25 @@
 # Melodroid 
-
-Enjoy listening to music together with your friends with MeloDroid. ~Now equipped with automated software testing!
+<p align="center">
+  <img src="https://github.com/AGiljanovic/MeloDroid/blob/master/public/imgs/logo1.png" width="250" height="250"> 
+</p>
+<p align="center">
+Enjoy listening to music together with your friends with MeloDroid.
+  </p>
 
 ## Commands
 
-- `play [song/URL]`: Play a specific song or a YouTube URL. If a song is already playing, the requested song will be added to the queue.
-- `back`: Play the previous song in the queue.
-- `dashboard`: Display the bot's status and statistics.
-- `help`: List all available commands or get detailed information about a specific command.
-- `leave`: Make the bot leave the voice channel.
-- `loop`: Loop the current song or the entire queue.
-- `nowplaying`: Display information about the currently playing song.
-- `pause`: Pause the currently playing song.
-- `ping`: Check the bot's latency.
-- `progress`: Show the progress of the currently playing song.
-- `queue`: Display the current song queue.
-- `remove [number]`: Remove a specific song from the queue.
-- `resume`: Resume the paused song.
-- `save`: Save the current queue for future listening.
-- `search [song]`: Search for a song on YouTube.
-- `server`: Display information about the current server.
-- `shuffle`: Shuffle the current song queue.
-- `skip`: Skip the currently playing song.
-- `status`: Check the bot's status.
-- `volume [1-100]`: Adjust the volume of the bot.
+| Command | Description | Command | Description |
+| --- | --- | --- | --- |
+| :arrow_forward: `play [song/URL]` | Play a specific song or a YouTube URL | :arrow_backward: `back` | Play the previous song |
+| :bar_chart: `dashboard` | Display bot's status and statistics | :question: `help` | List all available commands |
+| :door: `leave` | Make the bot leave the voice channel | :repeat: `loop` | Loop the current song or the queue |
+| :notes: `nowplaying` | Display the currently playing song | :pause_button: `pause` | Pause the currently playing song |
+| :ping_pong: `ping` | Check the bot's latency | :hourglass: `progress` | Show the progress of the current song |
+| :musical_score: `queue` | Display the current song queue | :x: `remove [number]` | Remove a specific song from the queue |
+| :arrow_heading_down: `resume` | Resume the paused song | :floppy_disk: `save` | Save the current queue for future |
+| :mag: `search [song]` | Search for a song on YouTube | :globe_with_meridians: `server` | Display info about the current server |
+| :twisted_rightwards_arrows: `shuffle` | Shuffle the current song queue | :fast_forward: `skip` | Skip the currently playing song |
+| :white_check_mark: `status` | Check the bot's status | :sound: `volume [1-100]` | Adjust the volume of the bot |
 
 ## Getting Started
 ```bash
