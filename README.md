@@ -3,7 +3,10 @@
   <img src="https://github.com/AGiljanovic/MeloDroid/blob/master/public/imgs/logo1.png" width="250" height="250"> 
 </p>
 <p align="center">
-Enjoy listening to music together with your friends with MeloDroid.
+🎧🌸 Enjoy listening to music together with your friends with MeloDroid 🌸🎧
+  </p>
+<p align="center">
+🛠️💫 Now equipped with automated testing! 💫🛠️
   </p>
 
 
@@ -26,9 +29,9 @@ Enjoy listening to music together with your friends with MeloDroid.
 ## Getting Started
 Before you can use Melodroid, you'll need to create a Discord bot and add it to your server.
 
-1. **Create a Discord bot:** Follow the instructions in this [guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot) to create your own Discord bot.
+1. **📝 Create a Discord bot:** Follow the instructions in this [guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot) to create your own Discord bot.
 
-2. **Add the bot to your server:** Once your bot is created, you can invite it to your server by following the steps in this [tutorial](https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links).
+2. **🤝 Add the bot to your server:** Once your bot is created, you can invite it to your server by following the steps in this [tutorial](https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links).
 
 
 After you have set up your bot and invited it to your server, you can proceed with the installation of Melodroid:
@@ -41,7 +44,7 @@ Install the dependencies
 `npm install`
 
 Adjust the environemnt
-`TOKEN = "your_bot_token"
+TOKEN = "your_bot_token"
 BOT_NAME = "MeloDroid"
 PREFIX = "/"
 PLAYING = "/help | music"
@@ -60,7 +63,7 @@ TEST_YOUTUBE_URL = "test_yt_url"
 
 TEXT_QUERY_TYPE = "youtubeSearch"
 URL_QUERY_TYPE = "auto"
-DP_FORCE_YTDL_MOD = "play-dl"`
+DP_FORCE_YTDL_MOD = "play-dl"
 ```
 <br>
 
