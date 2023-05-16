@@ -6,6 +6,7 @@
 Enjoy listening to music together with your friends with MeloDroid.
   </p>
 
+
 ## Commands
 
 | Command | Description | Command | Description |
@@ -20,8 +21,18 @@ Enjoy listening to music together with your friends with MeloDroid.
 | :mag: `search [song]` | Search for a song on YouTube | :globe_with_meridians: `server` | Display info about the current server |
 | :twisted_rightwards_arrows: `shuffle` | Shuffle the current song queue | :fast_forward: `skip` | Skip the currently playing song |
 | :white_check_mark: `status` | Check the bot's status | :sound: `volume [1-100]` | Adjust the volume of the bot |
+<br>
 
 ## Getting Started
+Before you can use Melodroid, you'll need to create a Discord bot and add it to your server.
+
+1. **Create a Discord bot:** Follow the instructions in this [guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot) to create your own Discord bot.
+
+2. **Add the bot to your server:** Once your bot is created, you can invite it to your server by following the steps in this [tutorial](https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links).
+
+
+After you have set up your bot and invited it to your server, you can proceed with the installation of Melodroid:
+
 ```bash
 Clone the Repository:
 git clone https://github.com/AGiljanovic/MeloDroid
@@ -51,6 +62,7 @@ TEXT_QUERY_TYPE = "youtubeSearch"
 URL_QUERY_TYPE = "auto"
 DP_FORCE_YTDL_MOD = "play-dl"`
 ```
+<br>
 
 ## License
 Melodroid is released under the MIT License.
